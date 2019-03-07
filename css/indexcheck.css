@@ -1,0 +1,381 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, legend, input, textarea, p, blockquote, th, td, a, img, span {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    font-family: "Microsoft YaHei UI", sans-serif;
+    overflow-x: hidden;
+}
+
+
+.head {
+    height: 80px;
+    position: relative;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.logo {
+    position: absolute; /*变成内联*/
+
+}
+
+.sdu {
+    position: relative;
+    top: 33px;
+    left: 110px;
+    letter-spacing: 2px;
+}
+
+.tab {
+    position: absolute;
+    left: 25%;
+    width: 800px;
+    top: 0;
+}
+
+.direct {
+    display: inline-block;
+    line-height: 80px;
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    margin: 0 5px;
+    color: #909090;
+    font-size: 16px;
+}
+
+.direct:hover {
+    border-bottom: 3px solid #4586f3;
+    color: #4586f3;
+
+}
+
+
+.log {
+    color: #fff;
+    position: relative;
+    left: 80%;
+    width: 200px;
+}
+
+.sign {
+    display: inline-block;
+    background-color: #fff;
+    font-size: 16px;
+    width: 80px;
+    height: 40px;
+    /*margin-top: 21px;*/
+    margin-right: 10px;
+    border: 1px solid #4586f3;
+    cursor: pointer;
+}
+
+.link ul {
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding: 10px 0;
+    border: 1px solid #4586f3;
+    color: #4586f3;
+}
+
+
+.news div {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    left: 30%;
+    top: 100px;
+    border: 1px solid #4586f3;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+/*.footer div{*/
+
+
+ul {
+    list-style: none;
+}
+
+
+
+.last .mdui-icon {
+    color: #fff;
+}
+
+
+.right .mdui-icon {
+    color: #fff;
+}
+
+
+
+#ul li {
+    width: 100%;
+    display: none;
+}
+
+.li img {
+    display: block;
+    max-width: 100%;
+    height: 500px;
+}
+
+.before-introduce {
+    width: 100%;
+    height: 100px;
+    margin: 50px 0;
+}
+
+
+
+.before-desc {
+    text-align: center;
+    width: 300px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+
+
+
+.item-icon li {
+    display: inline-block;
+    width: 120px;
+    height: 80px;
+    margin: 0 70px;
+}
+
+
+/*.click:hover .icons .mdui-icon{*/
+/*color: #4586f3;*/
+/*}*/
+.icons .mdui-icon {
+    font-size: 50px;
+    color: #909090;
+}
+
+.sub {
+    font-size: 15px;
+    text-align: center;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #f5f5f5;
+    position: absolute;
+    top: 163px;
+    left: 185px;
+}
+
+.triangle img {
+    width: 250px;
+}
+
+
+
+
+
+
+.page-img img {
+    width: 400px;
+    border: 3px solid #ccc;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    height: 300px;
+}
+
+
+
+.flex-item a {
+    display: inline-block;
+}
+
+
+
+.item-readin img {
+    width: 510px;
+    height: 300px;
+}
+
+
+
+
+.column div {
+    padding: 20px 20px 30px 20px;
+    color: #909090;
+    line-height: 24px;
+}
+
+.column h2 {
+    width: 280px;
+    margin: 0 auto;
+    padding: 25px 0 15px 0;
+    color: #4586f3;
+    font-size: 18px;
+    border-bottom: 2px solid #ddd;
+}
+
+
+
+
+.reward_one #img1 {
+    width: 80px;
+    position: relative;
+    display: inline-block;
+    left: calc(50% - 40px);
+    top: 5%;
+}
+
+.reward_one #img2 {
+    width: 100px;
+    position: relative;
+    left: calc(50% - 50px);
+    top: 5%;
+    display: inline-block;
+}
+
+.reward_one #img3 {
+    width: 120px;
+    position: relative;
+    left: calc(50% - 60px);
+    top: 5%;
+    display: inline-block;
+}
+
+.reward_one #img4 {
+    width: 140px;
+    position: relative;
+    left: calc(50% - 70px);
+    top: 5%;
+    display: inline-block;
+}
+
+
+.line_next img {
+    width: 120px;
+    height: 120px;
+}
+
+.line_next img:hover {
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.floatRight .mdui-icon {
+    font-size: 30px;
+}
+.vintage1{
+    background: #EEE url(data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAAHklEQVQImWNkYGBgYGD4//8/A5wF5SBYyAr+//8PAPOCFO0Q2zq7AAAAAElFTkSuQmCC) repeat;
+    text-shadow: 5px -5px black, 4px -4px white;
+    font-weight: bold;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text }
+table.altrowstable {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #a9c6c9;
+    border-collapse: collapse;
+}
+table.altrowstable th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+table.altrowstable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+.oddrowcolor{
+    background-color:#d4e3e5;
+}
+.evenrowcolor{
+    background-color:#c3dde0;
+}
+#tb{
+    width: 800px;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+#tb th{
+    background-color: #0094ff;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+
+
+}
+#tb td{
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;}
+.carousel {
+    height: 300px;
+}
+.carousel .item {
+    height: 300px;
+}
+.carousel .item img {
+    width: 100%;}
+
+.form-horizontal .main-checkbox label{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+.form-horizontal .main-checkbox label:after{
+    content: "";
+    width: 10px;
+    height: 5px;
+    position: absolute;
+    top: 5px;
+    left: 4px;
+    border: 3px solid #fff;
+    border-top: none;
+    border-right: none;
+    background: transparent;
+    opacity: 0;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.form-horizontal .main-checkbox input[type=checkbox]{
+    visibility: hidden;
+}
+.form-horizontal .main-checkbox input[type=checkbox]:checked + label:after{
+    opacity: 1;
+}
+
+.vintage3 {
+    color: transparent;
+    background-color : blue;
+    text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+    -webkit-background-clip : text;
+}

@@ -1,0 +1,51 @@
+.content{
+    margin-top: 100px;
+}
+#editor {
+    margin-left: 10%;
+    width: 80%;
+    height: 800px;
+    resize:vertical;
+    overflow:auto;
+    border:1px solid silver;
+    border-radius:5px;
+    min-height:100px;
+    box-shadow: inset 0 0 10px silver;
+    padding:1em;
+}
+.text{text-align:center;padding:10px 20px;width:300px;}
+.sub_btn{
+    display: inline;
+    margin-left: 80%;
+    width: 100px;
+    height:50px;
+}
+.info_input{
+    margin-left: 10%;
+    width: 80%;
+    height: 40px;
+    border:1px solid silver;
+    border-radius:5px;
+    padding:1em;
+    box-shadow: inset 0 0 10px silver;
+}
+#welcome {
+    margin-top: 8px;
+    margin-right: 10px;
+    display: none;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+.vintage1{
+    background: #EEE url(data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAAHklEQVQImWNkYGBgYGD4//8/A5wF5SBYyAr+//8PAPOCFO0Q2zq7AAAAAElFTkSuQmCC) repeat;
+    text-shadow: 5px -5px black, 4px -4px white;
+    font-weight: bold;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text
+}
+.vintage3 {
+    color: transparent;
+    background-color : blue;
+    text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+    -webkit-background-clip : text;
+}
